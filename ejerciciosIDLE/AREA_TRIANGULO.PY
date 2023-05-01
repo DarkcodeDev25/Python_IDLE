@@ -1,0 +1,15 @@
+print("AREA DEL TRIANGULO")
+print("========================")
+print("Ingrese el valor de la Base")
+B = int(input())
+print("Ingrese el valor de la altura")
+H = int(input())
+
+AT = ((B*H)/2)
+
+print()
+print("Resultados")
+print("===========================")
+print("Valor de la Base :", B)
+print("Valor de la Altura :", H)
+print("Area del Triangulo :", AT)

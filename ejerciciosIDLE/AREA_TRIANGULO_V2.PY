@@ -1,0 +1,23 @@
+print("AREA DEL TRIANGULO V2")
+print("========================")
+print("Ingrese el valor de la Base")
+a = float(input())
+print("Ingrese el valor del lado1")
+b = float(input())
+print("Ingrese el valor del lado2")
+c = float(input())
+print("Ingrese el valor de la Altura")
+H = int(input())
+
+P = a+b+c
+S = ((a*H)/2)
+
+print()
+print("Resultados")
+print("===========================")
+print("Valor de la Base :", a)
+print("Valor del lado1 :", b)
+print("Valor del lado2 :", c)
+print("Valor de la Altura :", H)
+print("Perimetro del triangulo :", P)
+print("Superficie del triangulo :", S)

@@ -1,0 +1,16 @@
+print("AREA DEL CIRCULO")
+print("========================")
+print("Ingrese el valor del Radio")
+r = int(input())
+
+AC = (3.1416*(r*r))
+P = (2*(3.1416)*r)
+S = (3.1416*(r*r))
+
+print()
+print("Resultados")
+print("===========================")
+print("Valor de Radio :", r)
+print("Area del Circulo :", AC)
+print("Perimetro del Circulo :", P)
+print("Superficie del Circulo :", S)
